@@ -1,0 +1,64 @@
+.container-fluid {
+    img {
+        width: 80px;
+        height: 50px;
+    }
+}
+.HeadOptions {
+    ul {
+        padding: 0 0 0 60em;
+    }
+}
+.Intro {
+   display: flex; 
+}
+.CSUContainer {
+    position: relative;
+    img {
+        width: 100%;
+        height: 500px;
+    }
+}
+.titleView {  
+    position: absolute;
+    padding: 10em 0 0 18em;
+    color: #228b22;   
+}
+.NSBEBoard {
+    display: block;
+    img {
+        width: 300px;
+        height: 250px;
+    }
+}
+.picPres {
+    padding: 0 0 0 100%;
+}
+.AboutNSBE {
+    padding: 2% 0 0 40%;
+}
+.NSBEBio {
+    padding: 2% 30% 1% 30%;
+}
+.FourSolid {
+    padding: 0 0 0 88%;
+}
+
+.Contact {
+    padding: 0 0 0 50%;
+
+}
+.socialMedia {
+    display: flex;
+    padding: 0em 35em 15em 0;
+}
+
+.ContactBlock {
+    display: flex;
+}
+
+.Footer{
+    padding: 0 0 0 50%;
+    //margin: 0 0 0 50%;
+}
+
