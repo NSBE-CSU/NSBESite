@@ -75,6 +75,10 @@
   padding: 0 0 0 88%;
 }
 
+.carousel-item img {
+  height: 900px;
+}
+
 .Contact {
   padding: 0 0 0 50%;
 }
@@ -132,6 +136,9 @@
   }
   .FourSolid {
     padding: 0 0 0 75%;
+  }
+  .carousel-item img {
+    height: 770px;
   }
   .Contact {
     padding: 0 0 0 45%;
@@ -191,6 +198,9 @@
   }
   .FourSolid {
     padding: 0 0 0 50%;
+  }
+  .carousel-item img {
+    height: 400px;
   }
   .googleMap {
     width: 375px;
