@@ -141,13 +141,20 @@
     height: 770px;
   }
   .Contact {
-    padding: 0 0 0 45%;
+    padding: 0 0 0 40%;
   }
   .ContactBlock {
     display: block;
+    padding: 0 0 0 10%;
+  }
+  .contactInfo {
+    padding: 0 0 0 10%;
+  }
+  .socialMedia {
+    padding: 0 100% 0 0;
   }
   .googleMap {
-    width: 768px;
+    width: 100%;
     height: 500px;
   }
   .Footer {
@@ -155,7 +162,7 @@
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .CSUContainer {
     position: relative;
   }
@@ -179,16 +186,16 @@
     height: 140px;
   }
   .presDescrip {
-    margin: 1em 1.5em 0 1em;
+    margin: 5% 2% 0 5%;
   }
   .picVice {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 0 0 1em 0;
+    padding: 0 0 2% 0;
   }
   .viceDescrip {
-    margin: .5em  0 0 2.5em;
+    margin: 2%  0 0 2%;
   }
   .AboutNSBE {
     padding: 0% 0 0 35%;
@@ -203,14 +210,14 @@
     height: 400px;
   }
   .googleMap {
-    width: 375px;
+    width: 100%;
     height: 500px;
   }
   .Contact {
     padding: 0 0 0 35%;
   }
   .googleForm {
-    width: 375px;
+    width: 100%;
   }
   .Footer {
     padding: 0 0 0 35%;
