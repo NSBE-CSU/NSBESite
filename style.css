@@ -3,10 +3,6 @@
   height: 50px;
 }
 
-.HeadOptions ul {
-  padding: 0 0 0 60em;
-}
-
 .Intro {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -19,7 +15,7 @@
 
 .CSUContainer img {
   width: 100%;
-  height: 500px;
+  height: 600px;
 }
 
 .titleView {
@@ -33,12 +29,38 @@
 }
 
 .NSBEBoard img {
-  width: 300px;
-  height: 250px;
+  width: 250px;
+  height: 300px;
+  border-radius: 50%;
 }
 
 .picPres {
-  padding: 0 0 0 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.picPres img {
+  margin: 0 0 0 3em;
+}
+
+.presDescrip {
+  padding: .5em 0 0 .5em;
+  margin: 0;
+  font-size: 200%;
+  color: #dab900;
+}
+
+.picVice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.viceDescrip {
+  margin: .5em  0 0 3em;
+  font-size: 200%;
+  color: #02075D;
 }
 
 .AboutNSBE {
@@ -61,7 +83,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0em 35em 15em 0;
+  padding: 0em 35em 0em 0;
 }
 
 .ContactBlock {
@@ -72,5 +94,137 @@
 
 .Footer {
   padding: 0 0 0 50%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .Intro {
+    display: block;
+  }
+  .titleView {
+    position: absolute;
+    padding: 13em 0 0 18em;
+    color: #228b22;
+  }
+  .picPres img {
+    margin: 0 0 0 10em;
+  }
+  .presDescrip {
+    margin: 3em 10em 0 2em;
+    font-size: 120%;
+  }
+  .picVice {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .picVice img {
+    margin: 0 10em 0 0;
+  }
+  .viceDescrip {
+    margin: 3em  0em 0 10em;
+    font-size: 120%;
+  }
+  .AboutNSBE {
+    padding: 2% 0 0 40%;
+  }
+  .NSBEBio {
+    padding: 2% 30% 1% 30%;
+  }
+  .FourSolid {
+    padding: 0 0 0 75%;
+  }
+  .Contact {
+    padding: 0 0 0 45%;
+  }
+  .ContactBlock {
+    display: block;
+  }
+  .googleMap {
+    width: 768px;
+    height: 500px;
+  }
+  .Footer {
+    padding: 0 0 0 43%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .CSUContainer {
+    position: relative;
+  }
+  .CSUContainer img {
+    width: 100%;
+    height: 300px;
+  }
+  .titleView {
+    position: absolute;
+    padding: 6em 0 0 8.5em;
+    color: #228b22;
+  }
+  .titleView h4 {
+    font-size: 12px;
+  }
+  .NSBEBoard {
+    display: block;
+  }
+  .NSBEBoard img {
+    width: 125px;
+    height: 140px;
+  }
+  .presDescrip {
+    margin: 1em 1.5em 0 1em;
+  }
+  .picVice {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 0 1em 0;
+  }
+  .viceDescrip {
+    margin: .5em  0 0 2.5em;
+  }
+  .AboutNSBE {
+    padding: 0% 0 0 35%;
+  }
+  .NSBEBio {
+    padding: 2% 10% 1.5% 10%;
+  }
+  .FourSolid {
+    padding: 0 0 0 50%;
+  }
+  .googleMap {
+    width: 375px;
+    height: 500px;
+  }
+  .Contact {
+    padding: 0 0 0 35%;
+  }
+  .googleForm {
+    width: 375px;
+  }
+  .Footer {
+    padding: 0 0 0 35%;
+  }
+}
+
+@media only screen and (min-width: 1220px) {
+  .HeadOptions ul {
+    padding: 0 0 0 60em;
+  }
+  .googleMap {
+    width: 1440px;
+    height: 500px;
+  }
+  .NSBEBoard img {
+    width: 240px;
+    height: 300px;
+    border-radius: 50%;
+  }
+  .AboutNSBE {
+    padding: 0 0 0 45%;
+  }
+  .NSBEBio {
+    padding: 2% 30% 1.5% 35%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
